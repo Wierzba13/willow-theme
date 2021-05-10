@@ -1,0 +1,43 @@
+{
+    "name": "willow-theme",
+    "displayName": "willow-theme",
+    "description": "Dark theme with green, purple and turquoise accents",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.56.0"
+    },
+    "publisher": "RaulWierzbiski",
+    "author": {
+        "name": "Raul Wierzbiński"
+    },
+    "icon": "willow.png",
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "theme",
+        "dark",
+        "black",
+        "green",
+        "purple",
+        "turquoise",
+        "nice",
+        "willow"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Wierzba13/willow-theme"
+    },
+    "bugs": {
+        "url": "https://github.com/Wierzba13/willow-theme/issues"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "willow",
+                "uiTheme": "vs-dark",
+                "path": "./themes/willow-color-theme.json"
+            }
+        ]
+    }
+}
