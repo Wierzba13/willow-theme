@@ -2,9 +2,14 @@
     "name": "willow-theme",
     "displayName": "willow-theme",
     "description": "Dark theme with green, purple and turquoise accents",
-    "version": "0.0.1",
+    "version": "1.0.0",
+    "license": "MIT",
     "engines": {
-        "vscode": "^1.56.0"
+        "vscode": "^1.85.0"
+    },
+    "galleryBanner": {
+        "color": "#0a0a0a",
+        "theme": "dark"
     },
     "publisher": "RaulWierzbiski",
     "author": {
